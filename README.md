@@ -1,36 +1,37 @@
-# Arts_Management_System
+# 🎨 Arts_Management_System
 
-The **Arts Management System** is a user-friendly software platform to help museums and galleries efficiently catalog, manage, and organize their artwork collections. Built with **Python** for backend logic, **PHP** for the web interface, and **Oracle SQL** for robust data storage, this system enables curators and staff to store, retrieve, and update information about artworks, artists, and exhibitions.
+The **Arts Management System** is a user-friendly software platform to help museums and galleries efficiently catalog, manage, and organize their artwork collections. Built with **Python** for backend data processing, **PHP** (served with XAMPP) for the web interface, and **MySQL** for robust data storage, this system enables curators and staff to store, retrieve, and update information about artworks, artists, and exhibitions.
 
 ---
 
 ## Features
 
-- Add, edit, and delete artwork records
-- Store detailed metadata (artist, year, category, description, etc.)
-- Search and filter artworks by multiple attributes
-- Manage artist information and exhibition details
-- Oracle SQL database for secure, persistent storage
-- Intuitive PHP-based web interface
-- Clean, menu-driven design for easy operation
+- Add, edit, and delete artwork records  
+- Store detailed metadata (artist, year, category, description, etc.)  
+- Search and filter artworks by multiple attributes  
+- Manage artist profiles and exhibition details  
+- MySQL database for secure, persistent storage  
+- Intuitive PHP-based web interface  
+- Python scripts for advanced data analysis or reporting  
+- Clean, menu-driven design for ease of use  
 
 ---
 
 ## Tech Stack
 
-- **Python** – backend scripts for data handling and reports  
-- **PHP** – user-facing web interface  
-- **Oracle SQL** – relational database  
-- **HTML / CSS / JavaScript** – for responsive user experience
+- **Python** – backend scripts for reports and data processing  
+- **PHP (XAMPP)** – user-facing web interface  
+- **MySQL** – relational database (set up via MySQL Installer)  
+- **HTML / CSS / JavaScript** – for responsive and smooth user experience  
 
 ---
 
-## Database Schema
+##  Database Schema
 
-- **artworks** table: stores each artwork’s details  
+- **artworks** table: stores artwork details  
 - **artists** table: holds artist profiles  
-- **exhibitions** table: manages exhibition and event data  
-- relationships between artworks and artists for fast lookup
+- **exhibitions** table: manages exhibition/event data  
+- relationships between artworks and artists for quick lookup  
 
 ---
 
@@ -40,9 +41,10 @@ The **Arts Management System** is a user-friendly software platform to help muse
    ```bash
    git clone https://github.com/yourusername/art-management-system.git
 
-2. **Set up the Oracle SQL database** : run schema.sql to create required tables
 
-3. **Configure PHP** : adjust database connection settings in config.php to match your Oracle credentials
+2. **Set up the mySQL database** : run schema.sql to create required tables, you can do this via MySQL Workbench or command line
+
+3. **Configure PHP** : Update your config.php to match your MySQL credentials, Place the project folder inside C:\xampp\htdocs\
 
 4. **Start your local server** (XAMPP, Apache, etc.)
 
