@@ -1,4 +1,4 @@
-# 🎨 Arts_Management_System
+# Arts_Management_System
 
 The **Arts Management System** is a user-friendly software platform to help museums and galleries efficiently catalog, manage, and organize their artwork collections. Built with **Python** for backend data processing, **PHP** (served with XAMPP) for the web interface, and **MySQL** for robust data storage, this system enables curators and staff to store, retrieve, and update information about artworks, artists, and exhibitions.
 
