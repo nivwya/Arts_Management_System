@@ -21,7 +21,8 @@ The **Arts Management System** is a user-friendly software platform to help muse
 
 - **C++** – backend scripts for reports and data processing  
 - **PHP (XAMPP)** – user-facing web interface  
-- **MySQL** – relational database (set up via MySQL Installer)   
+- **MySQL** – relational database (set up via MySQL Installer)
+- **PHP** - connection of backend and frontend
 
 ---
 
@@ -46,8 +47,8 @@ The **Arts Management System** is a user-friendly software platform to help muse
 3. **Configure PHP** : Update your config.php to match your MySQL credentials, Place the project folder inside C:\xampp\htdocs\
 
 4. **Start your local server** (XAMPP, Apache, etc.)
+   
+5. **Connect backend to frontend through php**
 
-5. **Run the application**
-    ```bash
-    http://localhost/art-management-system
+6. **Run the code**
 
