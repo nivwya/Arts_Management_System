@@ -19,10 +19,9 @@ The **Arts Management System** is a user-friendly software platform to help muse
 
 ## Tech Stack
 
-- **Python** – backend scripts for reports and data processing  
+- **C++** – backend scripts for reports and data processing  
 - **PHP (XAMPP)** – user-facing web interface  
-- **MySQL** – relational database (set up via MySQL Installer)  
-- **HTML / CSS / JavaScript** – for responsive and smooth user experience  
+- **MySQL** – relational database (set up via MySQL Installer)   
 
 ---
 
